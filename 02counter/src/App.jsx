@@ -9,8 +9,12 @@ function App() {
 
   const addValue=()=>{
     // counter=counter+1
-    if(counter<20)
-    setCounter(counter+1)
+    if(counter+4<=20){
+    setCounter((prevCounter)=>prevCounter+1)
+    setCounter((prevCounter)=>prevCounter+1)
+    setCounter((prevCounter)=>prevCounter+1)
+    setCounter((prevCounter)=>prevCounter+1)
+    }
 
     console.log("Clicked = ",counter)
   }
