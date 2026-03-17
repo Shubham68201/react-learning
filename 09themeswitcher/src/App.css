@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --selector-dark: .dark;
+}
+
+/* Add a test style below to see if the file is working at all */
+.test-red {
+  @apply bg-red-500;
+}
